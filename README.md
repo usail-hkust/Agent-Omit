@@ -2,7 +2,7 @@
 
 **Agent-Omit** is a framework that leverages **Agentic Reinforcement Learning** to teach Large Language Models (LLMs) to perform self-context management. By adaptively omitting redundant thoughts and observations, agents can achieve higher efficiency without compromising performance across diverse tasks.
 
-This repository contains the implementation of Agent-Omit, built upon [AgentGym](https://github.com/WooooDyy/agent-omit) and [Verl](https://github.com/volcengine/verl).
+This repository contains the implementation of Agent-Omit, built upon [AgentGym-RL](https://github.com/WooooDyy/AgentGym-RL) and [Verl](https://github.com/volcengine/verl).
 
 ## 🛠️ Installation
 
