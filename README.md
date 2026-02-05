@@ -1,10 +1,28 @@
 # Agent-Omit: Training Efficient LLM Agents for Adaptive Thought and Observation Omission via Agentic Reinforcement Learning ([PDF](https://arxiv.org/pdf/2602.04284))
 
+<p align="center">
+
+![Testing Status](https://img.shields.io/badge/docs-in_progress-green)
+![Testing Status](https://img.shields.io/badge/pypi_package-in_progress-green)
+![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue)
+
+</p>
+
+<p align="center">
+
+| **[Introduction](##introduction)** 
+| **[Installation](##requirements)**
+| **[Usage](##usage)**
+| **[Citation](##citation)**
+
+</p>
+
 ## Introduction
 <div style="display: flex; justify-content: center;">
   <img src="https://github.com/usail-hkust/Agent-Omit/blob/yasNing/example/figure_method.png">
 </div>
-**Agent-Omit** is a framework that leverages **Agentic Reinforcement Learning** to teach Large Language Models (LLMs) to perform self-context management. By adaptively omitting redundant thoughts and observations, agents can achieve higher efficiency without compromising performance across diverse tasks.
+
+Agent-Omit is a framework that leverages **Agentic Reinforcement Learning** to teach Large Language Models (LLMs) to perform self-context management. By adaptively omitting redundant thoughts and observations, agents can achieve higher efficiency without compromising performance across diverse tasks.
 
 This repository contains the implementation of Agent-Omit, built upon [AgentGym-RL](https://github.com/WooooDyy/AgentGym-RL) and [Verl](https://github.com/volcengine/verl).
 
