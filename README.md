@@ -177,7 +177,7 @@ Before training or evaluation, ensure the target **Agent Environment server** is
 
 ### RL Training (WebShop Example)
 
-To train the agent using Agent-Omit on WebShop:
+To train the agent using Valiana GRPO on WebShop:
 
 ```
 cd AgentOmit/example/AgentOmit-RL
