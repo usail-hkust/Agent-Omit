@@ -1,5 +1,7 @@
 # Agent Environments - TextCraft
 
+download the full './recipes' from https://github.com/WooooDyy/AgentGym/tree/d014732d9fe39b975c368c03749bfd50950067f6/agentenv-textcraft/agentenv_textcraft/recipes
+
 ## Setup
 
 ``` sh
