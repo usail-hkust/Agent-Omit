@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+gym
+gymnasium<1.0.0
+matplotlib
+minigrid<2.5.0

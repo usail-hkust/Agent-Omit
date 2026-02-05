@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: agentenv_babyai
+Version: 0.0.1
+Author-email: Andy15 <1413924962@qq.com>
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: gym
+Requires-Dist: gymnasium<1.0.0
+Requires-Dist: matplotlib
+Requires-Dist: minigrid<2.5.0
+
+# Agent Environments - BabyAI
+
+## Setup
+
+``` sh
+conda create --name agentenv-babyai
+conda activate agentenv-babyai
+pip install -e .
+```
+
+## Launch
+
+``` sh
+babyai --host 0.0.0.0 --port 36001
+```
