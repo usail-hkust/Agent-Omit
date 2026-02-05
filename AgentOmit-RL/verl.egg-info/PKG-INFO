@@ -1,0 +1,38 @@
+Metadata-Version: 2.4
+Name: verl
+Version: 0.2.0.post2
+Summary: verl: Volcano Engine Reinforcement Learning for LLM
+Home-page: https://github.com/volcengine/verl
+Author: Bytedance - Seed - MLSys
+Author-email: Bytedance - Seed - MLSys <zhangchi.usc1992@bytedance.com>, Bytedance - Seed - MLSys <gmsheng@connect.hku.hk>
+Project-URL: Homepage, https://github.com/volcengine/verl
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: accelerate
+Requires-Dist: codetiming
+Requires-Dist: datasets
+Requires-Dist: dill
+Requires-Dist: hydra-core
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: peft
+Requires-Dist: pyarrow>=15.0.0
+Requires-Dist: pybind11
+Requires-Dist: pylatexenc
+Requires-Dist: ray>=2.10
+Requires-Dist: tensordict<0.6
+Requires-Dist: transformers
+Requires-Dist: vllm<=0.6.3
+Requires-Dist: wandb
+Requires-Dist: torch==2.4.0
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: yapf; extra == "test"
+Requires-Dist: py-spy; extra == "test"
+Provides-Extra: prime
+Requires-Dist: pyext; extra == "prime"
+Provides-Extra: gpu
+Requires-Dist: liger-kernel; extra == "gpu"
+Requires-Dist: flash-attn; extra == "gpu"
+Dynamic: author
+Dynamic: home-page
