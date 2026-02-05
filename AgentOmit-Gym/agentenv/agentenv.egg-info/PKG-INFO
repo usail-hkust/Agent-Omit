@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: agentenv
+Version: 0.2.0
+Author-email: KYLN24 <hlguo24@m.fudan.edu.cn>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0.0
+Requires-Dist: transformers>=4.35.2
+Requires-Dist: trl>=0.8.6
+Requires-Dist: scipy>=1.11.4
+Requires-Dist: accelerate>=0.23.0
+Requires-Dist: jsonlines>=4.0.0
+Requires-Dist: wandb>=0.16.4
+Requires-Dist: tensorboard>=2.17.1
+Requires-Dist: torch-tb-profiler>=0.4.3
+Requires-Dist: deepspeed>0.15.0
+Requires-Dist: openai
+Provides-Extra: vllm
+Requires-Dist: vllm>=0.6.0; extra == "vllm"
+Provides-Extra: ascend
+Requires-Dist: torch_npu>=2.0.0; extra == "ascend"
+Requires-Dist: vllm@ git+https://github.com/wangshuai09/vllm.git@npu_support ; extra == "ascend"
