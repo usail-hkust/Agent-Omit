@@ -7,6 +7,7 @@ This repository contains the implementation of Agent-Omit, built upon [AgentGym-
 ## 🛠️ Installation
 
 The installation consists of two parts:
+
 1. **Agent Environments**: Hosting the specific task environments.
 2. **Agentic RL Training**: Setting up the RL training environment.
 
@@ -15,6 +16,7 @@ The installation consists of two parts:
 We evaluate Agent-Omit on five distinct domains. Each environment is recommended to run in a separate conda environment to avoid conflicts.
 
 #### 🌐 WebShop (Web Navigation)
+
 *Navigating e-commerce websites for attribute extraction and purchasing.*
 
 **Setup:**
@@ -168,3 +170,30 @@ To evaluate the trained checkpoint on WebShop:
 cd AgentOmit/example/AgentOmit-Eval
 bash ./webshop_eval.sh /your_model_dir/Qwen3-8B /your_log_dir/webshop_Qwen3-8B test
 ```
+
+## 
+
+## 📚 References
+
+If you use Agent-Omit or the environments mentioned above, please cite the following works:
+
+```
+@misc{ning2026agentomittrainingefficientllm,
+      title={Agent-Omit: Training Efficient LLM Agents for Adaptive Thought and Observation Omission via Agentic Reinforcement Learning}, 
+      author={Yansong Ning and Jun Fang and Naiqiang Tan and Hao Liu},
+      year={2026},
+      eprint={2602.04284},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2602.04284}, 
+}
+
+@article{ning2025not,
+  title={Not all thoughts are generated equal: Efficient llm reasoning via multi-turn reinforcement learning},
+  author={Ning, Yansong and Li, Wei and Fang, Jun and Tan, Naiqiang and Liu, Hao},
+  journal={arXiv preprint arXiv:2505.11827},
+  year={2025}
+}
+```
+
+## 
