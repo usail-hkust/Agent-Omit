@@ -200,14 +200,11 @@ bash ./webshop_eval.sh /your_model_dir/Qwen3-8B /your_log_dir/webshop_Qwen3-8B t
 If you use Agent-Omit or the environments mentioned above, please cite the following works:
 
 ```
-@misc{ning2026agentomittrainingefficientllm,
-      title={Agent-Omit: Training Efficient LLM Agents for Adaptive Thought and Observation Omission via Agentic Reinforcement Learning}, 
-      author={Yansong Ning and Jun Fang and Naiqiang Tan and Hao Liu},
-      year={2026},
-      eprint={2602.04284},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2602.04284}, 
+@article{ning2026agent,
+  title={Agent-Omit: Training Efficient LLM Agents for Adaptive Thought and Observation Omission via Agentic Reinforcement Learning},
+  author={Ning, Yansong and Fang, Jun and Tan, Naiqiang and Liu, Hao},
+  journal={arXiv preprint arXiv:2602.04284},
+  year={2026}
 }
 
 @article{ning2025not,
