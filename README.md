@@ -1,4 +1,4 @@
-# Agent-Omit: Training Efficient LLM Agents for Adaptive Thought and Observation Omission via Agentic Reinforcement Learning ([PDF](https://arxiv.org/pdf/2602.04284))
+# Agent-Omit: Adaptive Context Omission for Efficient LLM Agents ([PDF](https://arxiv.org/pdf/2602.04284))
 
 <p align="center">
 
